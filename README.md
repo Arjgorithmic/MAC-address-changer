@@ -41,7 +41,7 @@ $ `sudo apt get install python`<br>
 $ `git clone`<br>
 $ `cd MAC-address-changer`<br>
 $ `chmod +x mac_changer.py`<br>
-$ `python mac_changer.py`<br>      ** Taa..daaa.. your mac address is changed :-) **
+$ `python mac_changer.py`<br>      *** Taa..daaa.. your mac address is changed :-) ***
 
 
 
