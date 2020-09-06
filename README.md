@@ -36,7 +36,8 @@ To use this tool : <br>
          • Run the code as given below<br>
 $ `sudo apt-get update`<br>
 $ `sudo apt-get upgrade`<br>
-$ `sudo apt-get install git && sudo apt get install python`<br>
+$ `sudo apt-get install git`<br>
+$ `sudo apt get install python`<br>
 $ `git clone`<br>
 $ `cd MAC-address-changer`<br>
 $ `chmod +x mac_changer.py`<br>
