@@ -34,21 +34,22 @@ Requirements :<br>
 To use this tool : <br>
          • Open terminal on you Linux ( CTRL+ALT+T on your keyboard )<br>
          • Run the code as given below<br>
-$ `sudo apt-get update`
-$ `sudo apt-get upgrade`
-$ `sudo apt-get install git && sudo apt get install python`
-$ `git clone`
-$ `cd MAC-address-changer`
-$ `chmod +x mac_changer.py`
+$ `sudo apt-get update`<br>
+$ `sudo apt-get upgrade`<br>
+$ `sudo apt-get install git && sudo apt get install python`<br>
+$ `git clone`<br>
+$ `cd MAC-address-changer`<br>
+$ `chmod +x mac_changer.py`<br>
 $ `python mac_changer.py`<br>
-       Taa..daaa.. your mac address is changed :-)
+      ** Taa..daaa.. your mac address is changed :-) **
 
 
 
-
+---------------------------------------------------------------------------------------------------
 
 I Guarantee you this tool is completely safe and legal to use.
 If you have any issues , Feel free to tell us
 You can contribute to this tool if you wish 
 
-***Made with ❤️ in India***
+*** Made with ❤️ in India ***
+
