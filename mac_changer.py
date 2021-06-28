@@ -27,14 +27,18 @@ def change_mac(interface, new_mac):
 # interface = input("Select Interface >>> ")
 # new_mac = input("NEW MAC Address >>> ")
 
+
+def get_current_mac(interface):
+    ifconfig_result = subprocess.check_output(["ifconfig", interface])
+    print(ifconfig_result)
+    mac_regex_result = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", ifconfig_result)
+
+    if mac_regex_result:
+        return mac_regex_result.group(0)
+    else:
+        print("[-] Cannot find MAC ADDRESS")
+
 options = get_args()
+current_mac = get_current_mac(options.interface)
+print("Current MAC = " + str(current_mac))
 # change_mac(options.interface, options.new_mac)
-
-ifconfig_result = subprocess.check_output(["ifconfig", options.interface])
-print(ifconfig_result)
-mac_regex_result = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", ifconfig_result)
-
-if mac_regex_result:
-    print(mac_regex_result.group(0))
-else:
-    print("Cannot find MAC ADDRESS")
