@@ -1,4 +1,4 @@
-### MAC address changer for Kali Linux
+### MAC address changer for Linux
 
 This tool can help you to change your MAC address in your Kali Linux or any other Linux Distro.
 This tool is completely building using Python3 .
