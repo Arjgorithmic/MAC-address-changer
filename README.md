@@ -48,7 +48,7 @@ $ `python mac_changer.py`<br>
 
 ---------------------------------------------------------------------------------------------------
 
-I Guarantee you this tool is completely safe and legal to use.<br>
+This tool is completely safe and legal to use.
 If you have any issues , Feel free to tell us.<br>
 You can contribute to this tool if you wish.
 
